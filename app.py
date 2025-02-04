@@ -612,13 +612,13 @@ default_values = {
     'P_outlet': 500.0,    # Pa
     'P_inlet': 1000.0,     # Pa
     'D_h': 0.04,           # m, hydraulic diameter of the pipe
-    'rho': 1.2,            # kg/m³, density of air at room temperature
+    'rho': 1.0,            # kg/m³, density of air at room temperature
     'U': 1.0,              # m/s, mean velocity (assumed)
-    'L': 0.4,              # m, channel length (400 mm converted to m)
-    'mu': 1.81e-5,         # Pa.s, dynamic viscosity of air
+    'L': 0.42,              # m, channel length (400 mm converted to m)
+    'mu': 3.178e-5,         # Pa.s, dynamic viscosity of air
     'Pr': 0.71,            # dimensionless, Prandtl number for air
     'h': 500.0,            # W/m²K, surface heat transfer coefficient (assumed)
-    'k': 0.026             # W/mK, thermal conductivity of air
+    'k': 0.045             # W/mK, thermal conductivity of air
 }
 
 # Define a very large range as floats
