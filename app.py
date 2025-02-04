@@ -868,7 +868,7 @@ LARGE_MIN = -1e12
 LARGE_MAX = 1e12
 
 # Use a format that displays up to 10 decimals for higher precision
-PRECISION_FORMAT = "%.6f"
+PRECISION_FORMAT = "%.3f"
 
 col1, col2 = st.columns(2)
 with col1:
